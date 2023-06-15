@@ -28,21 +28,23 @@
   width: 100%;
 }
 
-.smm_table_column_container {
-  background-color: #e8f0ff;
-}
-
 .smm_table_column_info_container {
   background-color: #e8f0ff;
 }
 
 .smm_table_column_name {
-  font-weight: 400;
-  font-size: 24px;
-  text-align: center;
   padding: 20px 0;
-  border-radius: 20px;
+}
+
+.smm_table_column_name_inner {
   border: 1px solid #94b2eb;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: rubik-regular;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 0;
+  background-color: #e8f0ff;
 }
 
 .smm_table_column_info_container {
@@ -52,6 +54,7 @@
 .smm_table_column_info_name {
   font-weight: 400;
   font-size: 24px;
+  font-family: rubik-regular;
   text-align: center;
   padding: 10px 0;
   border-radius: 20px;
@@ -90,20 +93,22 @@
 }
 
 .smm_pagination_numeration {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: rubik-regular;
   background-color: #f9fbff;
   padding: 11px 18px;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 24px;
-  font-weight: 400;
 }
 
 .pagination_active {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: rubik-regular;
   padding: 11px 18px;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 24px;
-  font-weight: 400;
   background-color: #94b2eb;
   color: white;
 }
