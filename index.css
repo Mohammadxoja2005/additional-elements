@@ -14,11 +14,10 @@
   padding: 20px;
 }
 
-.smm_container {
+.smm_table_container {
   width: 100%;
   margin: auto;
   background-color: white;
-  border: 1px solid black;
   padding: 50px 20px;
   border-radius: 20px;
   margin-bottom: 30px;
@@ -113,6 +112,10 @@
   color: white;
 }
 
-.smm_pagination_next_img {
+.smm_pagination_next {
   cursor: pointer;
+}
+
+.smm_pagination_next_disabled {
+  cursor: no-drop;
 }/*# sourceMappingURL=index.css.map */
