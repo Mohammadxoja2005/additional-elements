@@ -4,14 +4,17 @@
   box-sizing: border-box;
 }
 
+.container {
+  // max-width: ;
+}
+
+// smm part start =====================================================================================================
+
 .smm {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   max-width: 1510px;
-//   margin: auto;
-  //   background-color: #e8f0ff;
-  padding: 20px;
 }
 
 .smm_table_container {
@@ -129,4 +132,37 @@
 
 .smm_pagination_next_disabled {
   cursor: no-drop;
+}
+
+// smm part end ====================================================================================================
+
+// create_smm start =============================================================================================
+
+.create_smm {
+  display: flex;
+  gap: 20px;
+  background-color: #f5f5f5;
+}
+
+.create_smm_social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.create_smm_social_img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.create_smm_social_text {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: rubik-regular;
+  text-transform: capitalize;
 }
